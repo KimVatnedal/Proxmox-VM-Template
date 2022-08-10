@@ -7,7 +7,7 @@ build_vm_id='ENTER-VMID-FOR-TEMPLATE'
 install_dir='/WHAT-DIRECTORY-ARE-WE-IN/'
 
 # Who are you?
-creator='YOURNAMEHERE'
+creator='Kim'
 
 # Create this file and add your SSH keys 1 per line
 keyfile=${install_dir}keyfile
@@ -17,6 +17,8 @@ keyfile=${install_dir}keyfile
 # the distro you would like to use.
 cloud_img_url='https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img'
 #cloud_img_url='https://cloud-images.ubuntu.com/kinetic/current/kinetic-server-cloudimg-amd64.img'
+#cloud_img_url='https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-20220808.1.x86_64.qcow2'
+#cloud_img_url='https://download.fedoraproject.org/pub/fedora/linux/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2'
 
 # Leave this variable alone
 image_name=${cloud_img_url##*/}
